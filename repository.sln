@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33110.190
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "repository tulasi", "repository\repository tulasi.csproj", "{1B3A5B5B-AC02-49D1-A065-8CEE34AFC8B9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Repository", "Repository", "{7B09956B-2278-4DEB-8EE3-CE282BF520B1}"
+	ProjectSection(SolutionItems) = preProject
+		Iperson.cs = Iperson.cs
+		Impperson.cs = Impperson.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "services", "services", "{7A9A25D8-8538-4658-B2CC-A3177D0116F0}"
+	ProjectSection(SolutionItems) = preProject
+		personservices.cs = personservices.cs
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1B3A5B5B-AC02-49D1-A065-8CEE34AFC8B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B3A5B5B-AC02-49D1-A065-8CEE34AFC8B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B3A5B5B-AC02-49D1-A065-8CEE34AFC8B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B3A5B5B-AC02-49D1-A065-8CEE34AFC8B9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {08487D7F-38E4-46EA-8381-A50A99E07761}
+	EndGlobalSection
+EndGlobal
